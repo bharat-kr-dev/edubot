@@ -1,0 +1,5 @@
+# Telegram Bot Framework (v20+ with async/await)
+python-telegram-bot>=20.7
+
+# Environment variable management (.env file)
+python-dotenv>=1.0.1
