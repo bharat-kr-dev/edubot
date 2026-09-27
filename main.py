@@ -332,10 +332,6 @@ def main() -> None:
         drop_pending_updates=True,
         bootstrap_retries=config.BOOTSTRAP_RETRIES,
         timeout=30,
-        read_timeout=config.READ_TIMEOUT,
-        write_timeout=30.0,
-        connect_timeout=config.CONNECT_TIMEOUT,
-        pool_timeout=30.0,
     )
 
 
